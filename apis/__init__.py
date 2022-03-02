@@ -1,4 +1,4 @@
-from apis.fund_api_routes import api as fund_api
+from apis.fund_discovery_routes import api as fund_api
 from flask_restx import Api
 
 api = Api(
